@@ -1,0 +1,17 @@
+# Credenciais e config sensível (gerado localmente / por ambiente)
+wp-config.php
+
+# Uploads de mídia (não versionar binários grandes; sincronizar via backup/host)
+wp-content/uploads/
+
+# Cache, backups e logs
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/*.log
+*.log
+
+# Arquivos de ambiente
+.env
+.DS_Store
+Thumbs.db
